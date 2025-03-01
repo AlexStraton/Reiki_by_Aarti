@@ -1,5 +1,6 @@
-
 import './App.css'
+import NavBar from './components/NavBar'
+import Home from './pages/Home'
 
 function App() {
 
@@ -7,10 +8,8 @@ function App() {
   return (
     <>
       <div>
-
-      <p className="text-5xl font-bold text-center text-white-800 my-8">
-       Reiki by Aarti
-      </p>
+<NavBar />
+<Home />
       </div>
     </>
   )
