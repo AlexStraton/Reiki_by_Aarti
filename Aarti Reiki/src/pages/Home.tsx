@@ -9,19 +9,25 @@ return(<>
 <p className="text-5xl font-bold text-center text-white-800 my-8 py-20">
        Reiki by Aarti
       </p>
-      <p> Therapy and Reiki Healing in London</p>
+      <p className="text-black text-center text-opacity-50 text-lg font-bold mb-12"> Therapy and Reiki Healing in London</p>
 
-<div className='flex flex-row justify-center'>
-<img src="https://m.media-amazon.com/images/I/31ls4+qZepL._AC_UF1000,1000_QL80_.jpg" className="w-32 h-32" alt="Master Symbol Day-Ko-Mio"></img>
-<ul>
-      <h3> Reiki Principles</h3>
-      <h1>JUST FOR TODAY</h1>
-      <li>-I let go of ANGER</li>
-      <li>-I let go of WORRY</li>
-      <li>-I count my many BLESSINGS</li>
-      <li>-I will do my work HONESTLY</li>
-      <li>-I will be kind to every single living THING</li>
-</ul>
+      <div className='grid grid-cols-1 md:grid-cols-2 p-5 max-w-xl mx-auto'>
+  <div className="flex items-center justify-center p-2">
+    <img
+      src="https://m.media-amazon.com/images/I/31ls4+qZepL._AC_UF1000,1000_QL80_.jpg"
+      className="w-full max-w-[200px] max-h-[200px] object-contain"
+      alt="Master Symbol Day-Ko-Mio"
+    />
+  </div>
+  <ul className="text-sm p-2">
+    <h3 className="text-base font-medium"> Reiki Principles</h3>
+    <h1 className="text-lg font-bold mb-2">JUST FOR TODAY</h1>
+    <li>-I let go of ANGER</li>
+    <li>-I let go of WORRY</li>
+    <li>-I count my many BLESSINGS</li>
+    <li>-I will do my work HONESTLY</li>
+    <li>-I will be kind to every single living THING</li>
+  </ul>
 </div>
 <div className="relative mx-4 my-24">
 <h2 className="border-4 border-gray-300 p-6 text-xl italic rounded-md">
