@@ -4,11 +4,11 @@ import BookSession from "../components/BookSession"
 export default function Home() {
 
 return(<>
-<div className="container mx-auto px-4">
+
+      <BookSession />
 <p className="text-5xl font-bold text-center text-white-800 my-8 py-20">
        Reiki by Aarti
       </p>
-      <BookSession />
       <p> Therapy and Reiki Healing in London</p>
 
 <div className='flex flex-row justify-center'>
@@ -30,7 +30,7 @@ return(<>
     <span className="absolute bottom-0 right-0 text-6xl text-gray-400">"</span>
   </h2>
   </div>
-  </div>
+
 </>
 
 
