@@ -1,5 +1,5 @@
 import BookSession from "../components/BookSession"
-
+import Footer from "../components/Footer"
 export default function FAQs() {
 
     return(<>
@@ -7,6 +7,7 @@ export default function FAQs() {
     <div className="text-black text-center text-opacity-50 text-lg font-bold mt-12">
     This page is under contruction
             </div>
+            <Footer />
     </>
     )
 }

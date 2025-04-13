@@ -3,6 +3,7 @@ import Logo  from '../assets/file.svg';
 import { Link } from 'react-router-dom'
 import Burger from '../assets/burger-menu-svgrepo-com.svg'
 import { useState } from 'react';
+import '../App.css'
 
 export default function NavBar() {
       const [toggleDropdown, setToggleDropdown] = useState(false);
@@ -15,7 +16,7 @@ return(
       </div>
 
 {/* Desktop Navigation */}
-          <div className='hidden justify-between gap-6 sm:flex ml-auto mr-6'>
+          <div className='hidden justify-between gap-6 sm:flex ml-auto mr-6 winky-rough-font'>
           <Link to="/" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">Home</Link>
           <Link to="/FAQs" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">FAQs</Link>
           <Link to="/AboutMe" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">About Me</Link>
