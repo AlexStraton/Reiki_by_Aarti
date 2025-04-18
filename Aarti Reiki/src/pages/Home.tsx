@@ -1,14 +1,12 @@
 
 import BookSession from "../components/BookSession"
 import '../App.css'
-import { faMoon } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFeatherPointed } from '@fortawesome/free-solid-svg-icons';
-import { faSeedling } from "@fortawesome/free-solid-svg-icons";
-import { faClover } from "@fortawesome/free-solid-svg-icons";
-import { faCloudSun } from "@fortawesome/free-solid-svg-icons";
-import { faMountain } from "@fortawesome/free-solid-svg-icons";
+import aarti2 from "../assets/aarti2.jpg"
+import chakras from "../assets/chakras.jpg"
 import Footer from "../components/Footer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import  { faInstagram }  from "@fortawesome/free-brands-svg-icons";
+
 
 export default function Home() {
 
@@ -16,63 +14,39 @@ return(<>
 
       <section className="bg-pink-100">
       <BookSession />
-<p className="winky-rough-font text-5xl text-center my-8 py-20">
+<p className="winky-rough-font text-5xl text-center my-4 py-8">
        Reiki by Aarti
       </p>
-      <p className="winky-rough-font text-black text-center text-opacity-50 text-2xl font-bold mb-12"> Therapy and Reiki Healing in London</p>
+      <p className="winky-rough-font text-black text-center text-opacity-50 text-2xl font-bold"> Therapy and Reiki Healing in London</p>
 
-  <div className="flex flex-row justify-center items-center">
-  <FontAwesomeIcon className="mr-2 text-2xl" icon={faMoon} />
-    <h3 className="text-4xl"> Reiki Principles</h3>
-    <FontAwesomeIcon  className="ml-2 text-2xl" icon={faMoon} />
+    <div className="grid md:grid-cols-2 grid-cols-1 gap-2 grid-rows-3 p-20 max-w-4xl mx-auto">
+        <img alt="Image of Aarti" className= "w-full h-full object-cover mx-auto rounded-lg" src={aarti2}></img>
+            <div className="max-w-200 max-h-200">
+            <p className="text-black text-xl roboto-condensed-font mt-12">I'm Aarti Pandya,a certified Reiki practitioner with over 10 years of experience in energy healing</p>
+        <p className="text-black text-lg roboto-condensed-font mt-12">Reiki has transformed my life, empowering me to take control of my decisions and find inner peace. I am passionate about helping others experience the same healing and clarity.</p>
+        <p className="text-xl text-black roboto-condensed-font mt-12">In my practice I offer personalised Reiki sessions to help you heal, achieve your goals, and discover a deeper sense of calm. Whether you seek stress relief, emotional balance, or spiritual growth, I'm her eto support you.</p>
+            </div>
+        <div className="max-w-200 max-h-200">
+            <p className="text-lg text-black roboto-condensed-font mt-12">Reiki is a gentle and holistic energy healing technique that originated in Japan. It involves  teh transfer of universal force energy through the hands of a trained practitioner to promote balance and healing in the body, mind and spirit.</p>
+        <p className="text-lg text-black roboto-condensed-font mt-12">By chanelling this energy, Reiki helps to reduce stress, relieve pain, and enhance overall well-being. It is a non-invase and deeply relaxing practice that supports teh body's natural healing processes abd encourages emotional and spiritual growth.</p>
+            </div>
+        <img alt="Chakras on the human body" className="w-full h-full object-cover mx-auto rounded-lg" src={chakras}></img>
+            </div>
+
+
+<div className="relative px-9 flex justify-center items-center ">
+  <div className="">
+<p>email@aarty.co.uk</p>
+<a href="https://www.instagram.com/reikibyaarti/"
+  target="_blank"
+  rel="noopener noreferrer" className="flex gap-4 cursor-pointer font-size-4xl text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium" href="https://www.instagram.com/aarti_reiki/" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faInstagram} />
+        </a>
   </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 p-5 max-w-xl mx-auto'>
-  <div className="flex items-center justify-center p-2">
-    <img
-      src="https://m.media-amazon.com/images/I/31ls4+qZepL._AC_UF1000,1000_QL80_.jpg"
-      className=" w-full rounded-lg h-full object-contain "
-      alt="Master Symbol Day-Ko-Mio"
-    />
   </div>
-  <ul className="text-2xl">
-    <h1 className="text-2xl roboto-condensed-font mb-2 text-center">JUST FOR TODAY</h1>
-<div className="flex flex-row gap-2 mb-4">
-    <FontAwesomeIcon className="m-2" icon={faFeatherPointed} />
-    <li className="roboto-condensed-font">I let go of ANGER</li>
-</div>
-<div className="flex flex-row gap-2 mb-4">
-
-    <FontAwesomeIcon className="m-2" icon={faSeedling} />
-    <li className="roboto-condensed-font">I let go of WORRY</li>
-</div>
-<div className="flex flex-row gap-2 mb-4">
-
-    <FontAwesomeIcon className="m-2" icon={faClover} />
-    <li className="roboto-condensed-font">I count my many BLESSINGS</li>
-</div>
-<div className="flex flex-row gap-2 mb-4">
-
-<FontAwesomeIcon className="m-2" icon={faCloudSun} />
-    <li className="roboto-condensed-font">I will do my work HONESTLY</li>
-</div>
-<div className="flex flex-row gap-2">
-    <FontAwesomeIcon className="m-2" icon={faMountain} />
-    <li className="roboto-condensed-font">I will be kind to every single living THING</li>
-</div>
-  </ul>
-</div>
-<div className="relative px-9">
-<h2 className="flex flex-row justify-between border-4 border-gray-300 p-6 text-xl italic rounded-md">
-    <span className=" self-start text-6xl text-gray-400">"</span>
-    <span className="relative z-10">Nice quote</span>
-    <span className=" self-end text-6xl text-gray-400">"</span>
-  </h2>
-  </div>
-  <div className="h-18"></div>
   <Footer />
   </section>
 </>
-
 
 )
 }

@@ -18,9 +18,6 @@ return(
 {/* Desktop Navigation */}
           <div className='hidden justify-between gap-6 sm:flex ml-auto mr-6 winky-rough-font'>
           <Link to="/" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">Home</Link>
-          <Link to="/FAQs" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">FAQs</Link>
-          <Link to="/AboutMe" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">About Me</Link>
-          <Link to="/Reiki" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">Reiki</Link>
           <Link to="/Services" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">Services</Link>
         </div>
         <div>
@@ -38,9 +35,7 @@ return(
 />
 {toggleDropdown && (<div className="dropdown">
       <Link to="/" className="text-black text-lg font-bold mr-6"  onClick={() => setToggleDropdown(false)}>Home</Link>
-          <Link to="/FAQs" className="text-black-300 hover:text-white hover:border-b-2 hover:border-black transition duration-600 ease-in-outpx-3 py-2 transition duration-600 ease-in-out text-sm font-medium"  onClick={() => setToggleDropdown(false)}>FAQs</Link>
-          <Link to="/AboutMe" className="text-black-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  onClick={() => setToggleDropdown(false)}>About Me</Link>
-          <Link to="/Reiki" className="text-black-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  onClick={() => setToggleDropdown(false)}>Reiki</Link>
+
           <Link to="/Services" className="text-black-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  onClick={() => setToggleDropdown(false)}>Services</Link>
 </div>)}
 </div>
