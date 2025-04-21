@@ -11,14 +11,13 @@ export default function NavBar() {
 return(
 <nav className="m-0 p-0 bg-pink-200 w-full top-0 left-0 z-50 shadow-md flex flex-row items-center justify-between p-8">
       <div className=''>
-
       <img src={Logo} alt="Logo" className='w-20 h-20 mx-3 rounded-lg'/>
       </div>
 
 {/* Desktop Navigation */}
           <div className='hidden justify-between gap-6 sm:flex ml-auto mr-6 winky-rough-font'>
-          <Link to="/" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">Home</Link>
-          <Link to="/Services" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">Services</Link>
+          <Link to="/" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-2xl font-medium">Home</Link>
+          <Link to="/Services" className="text-black-300 hover:text-pink-600 hover:text-2xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-2xl font-medium">Services</Link>
         </div>
         <div>
 
@@ -27,16 +26,15 @@ return(
 <img
   src={Burger}
   alt="Menu"
-  width={37}
-  height={37}
+  width={47}
+  height={47}
   onClick={() => {
     setToggleDropdown((prev: any) => !prev);
   }}
 />
 {toggleDropdown && (<div className="dropdown">
-      <Link to="/" className="text-black text-lg font-bold mr-6"  onClick={() => setToggleDropdown(false)}>Home</Link>
-
-          <Link to="/Services" className="text-black-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  onClick={() => setToggleDropdown(false)}>Services</Link>
+      <Link to="/" className="text-pink-600 text-black font-bold mr-6 text-2xl font-medium"  onClick={() => setToggleDropdown(false)}>Home</Link>
+          <Link to="/Services" className="text-pink-500 hover:text-white px-3 py-2 rounded-md text-2xl font-medium"  onClick={() => setToggleDropdown(false)}>Services</Link>
 </div>)}
 </div>
         </div>

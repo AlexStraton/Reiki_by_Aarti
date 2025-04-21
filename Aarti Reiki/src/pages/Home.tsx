@@ -39,7 +39,7 @@ return(<>
 <p className="font-bold bg-gradient-to-r from-yellow-200 to-pink-300 rounded p-2">aartipandya41@gmail.com</p>
 <a href="https://www.instagram.com/reikibyaarti/"
   target="_blank"
-  rel="noopener noreferrer" className="text-4xl flex gap-4 cursor-pointer font-size-4xl text-black-300 hover:text-pink-600 hover:text-4xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out text-lg font-medium">
+  rel="noopener noreferrer" className="text-4xl flex gap-4 cursor-pointer font-size-4xl text-black-300 hover:text-pink-600 hover:text-4xl hover:border-b-2 hover:border-black transition-all duration-600 ease-in-out px-3 py-2 transition duration-600 ease-in-out font-medium ">
         <FontAwesomeIcon icon={faInstagram} />
         </a>
 
