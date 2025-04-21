@@ -14,8 +14,8 @@ return(<>
 
       <section className="bg-pink-100">
       <BookSession />
-<p className="winky-rough-font text-5xl text-center my-4 py-8">
-       Reiki by Aarti
+<p className="winky-rough-font text-6xl text-center my-4 py-8">
+<span className="bg-gradient-to-r from-purple-700 to-pink-800  text-transparent bg-clip-text"> Reiki by Aarti</span>
       </p>
       <p className="winky-rough-font text-black text-center text-opacity-50 text-2xl font-bold"> Therapy and Reiki Healing in London</p>
 
@@ -23,7 +23,7 @@ return(<>
         <img alt="Image of Aarti" className= "pt-8 order-1 md:order-none w-full h-140 sm:h-100 md:h-full object-cover mx-auto rounded-lg" src={aarti2}></img>
             <div className="pl-4 w-full h-full flex flex-col justify-center text-xs sm:text-sm md:text-base order-2 md:order-none">
             <p className="tracking-wide text-lg roboto-condensed-font mt-8">I'm Aarti Pandya, a <span className="bg-gradient-to-r from-purple-600 to-pink-700  text-transparent bg-clip-text">certified Reiki practitioner</span> with over 10 years of experience in energy healing.</p>
-        <p className="tracking-wide text-black text-lg roboto-condensed-font mt-8">Reiki has transformed my life, <span className="bg-gradient-to-r from-blue-500 to-green-700 text-transparent bg-clip-text">empowering</span> me to take control of my decisions and find inner peace. I am passionate about helping others experience the same healing and clarity.</p>
+        <p className="tracking-wide text-black text-lg roboto-condensed-font mt-8">Reiki has transformed my life, <span className="bg-gradient-to-r from-blue-500 to-green-700 text-transparent bg-clip-text">empowering</span> me to take control of my decisions and  <span className="bg-gradient-to-r from-blue-500 to-green-700 text-transparent bg-clip-text">find inner peace</span>. I am passionate about helping others experience the same healing and clarity.</p>
         <p className="tracking-wide text-lg text-black roboto-condensed-font mt-12">In my practice I offer personalised Reiki sessions to help you <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-transparent bg-clip-text">heal</span>, achieve your goals, and discover a <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-transparent bg-clip-text">deeper sense of calm</span>. Whether you seek stress relief, emotional balance, or spiritual growth, I'm here to support you.</p>
             </div>
         <div className="pl-4 w-full h-full order-4 md:order-none">
