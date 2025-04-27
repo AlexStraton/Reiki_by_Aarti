@@ -56,18 +56,18 @@ export default function Services() {
 
             <div className="bg-pink-200 p-2">
             <div className="border bg-pink-100 border-gray-300 rounded-lg shadow-2xl m-8">
-<h3 className="text-4xl winky-rough-font lg:text-2xl md:text-xl sm:text-lg font-bold text-center text-white-800 mx-2 py-10">
-        Initial Consultation & Reiki Session: <span className="bg-gradient-to-r from-purple-700 to-pink-800  mx-2 text-transparent bg-clip-text">£100 </span>
+<h3 className="text-4xl winky-rough-font lg:text-2xl md:text-xl sm:text-lg font-bold text-center text-white-800 mx-2 py-2">
+        Initial Consultation & Reiki Session: £100
       </h3>
-      <p className="winky-rough-font p-8">Your journey begins with a comprehensive initial consultation and a Reiki session, where we discuss your needs and tailor the experience to your unique path.</p>
+      <p className="winky-rough-font p-4">Your journey begins with a comprehensive initial consultation and a Reiki session, where we discuss your needs and tailor the experience to your unique path.</p>
       </div>
       <div className="border bg-pink-100 border-gray-300 rounded-lg shadow-lg m-8">
 
-      <h3 className="text-4xl winky-rough-font lg:text-2xl md:text-xl sm:text-lg font-bold text-center text-white-800 mx-2 py-10">
-        Follow up Reiki Sessions: <span className="bg-gradient-to-r from-purple-700 to-pink-800  mx-2 text-transparent bg-clip-text">£50</span>
+      <h3 className="text-4xl winky-rough-font lg:text-2xl md:text-xl sm:text-lg font-bold text-center text-white-800 mx-2 py-2">
+        Follow up Reiki Sessions: £50
       </h3>
-      <p className="p-8 winky-rough-font">For ongoing support, book additional Reiki sessions to continue your healing journey and work towards a balanced and empowered life.</p>
-<p className="p-8 winky-rough-font">Book your first session today and take the first step towards wellness and personal growth.</p>
+      <p className="p-4 winky-rough-font">For ongoing support, book additional Reiki sessions to continue your healing journey and work towards a balanced and empowered life.</p>
+<p className="p-4 winky-rough-font">Book your first session today and take the first step towards wellness and personal growth.</p>
       </div>
             </div>
             <Footer />
