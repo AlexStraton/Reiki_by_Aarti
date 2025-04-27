@@ -15,11 +15,11 @@ return(<>
       <section className="bg-pink-100">
       <BookSession />
 <p className="winky-rough-font text-6xl text-center my-4 py-8">
-<span className="bg-gradient-to-r from-purple-700 to-pink-800  text-transparent bg-clip-text"> Reiki by Aarti</span>
+<span className="bg-gradient-to-r from-purple-700 to-pink-800  mx-2 text-transparent bg-clip-text"> Reiki by Aarti</span>
       </p>
       <p className="winky-rough-font text-black text-center text-opacity-50 text-2xl font-bold"> Therapy and Reiki Healing in London</p>
 
-    <div className="grid md:grid-cols-2 grid-cols-1 gap-2 grid-rows-2 px-10 max-w-4xl mx-auto">
+    <div className="grid md:grid-cols-2 grid-cols-1 grid-rows-2 px-8 max-w-4xl mx-auto">
         <img alt="Image of Aarti" className= "pt-8 order-1 md:order-none w-full h-140 sm:h-100 md:h-full object-cover mx-auto rounded-lg" src={aarti2}></img>
             <div className="pl-4 w-full h-full flex flex-col justify-center text-xs sm:text-sm md:text-base order-2 md:order-none">
             <p className="tracking-wide text-lg roboto-condensed-font mt-8">I'm Aarti Pandya, a <span className="bg-gradient-to-r from-purple-600 to-pink-700  text-transparent bg-clip-text">certified Reiki practitioner</span> with over 10 years of experience in energy healing.</p>
